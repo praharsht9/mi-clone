@@ -1,0 +1,30 @@
+.offersSection {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 1vmax;
+}
+
+.carousel-indicators {
+	margin-bottom: 20px;
+}
+
+.carousel-indicators button {
+	display: block;
+	width: 10px;
+	height: 10px;
+	border-radius: 6px;
+	margin: 0 5px;
+	text-indent: -9999px;
+	overflow: hidden;
+	border: 1px solid;
+	border-color: rgba(255, 255, 255, 0.3);
+}
+.offersSection img {
+	margin: 0 1vmax;
+	transition: all 0.5s;
+}
+
+.offersSection img:hover {
+	box-shadow: 6px 6px 15px rgba(53, 53, 53, 0.363);
+}
